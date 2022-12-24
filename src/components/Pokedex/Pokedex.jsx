@@ -13,6 +13,7 @@ const Pokedex = () => {
     { id: 12, name: "Jigglypuff", type: "electric", base_experience: 112 },
   ];
   return (
+    
     <div className="Pokedex">
       <h1>Pokedex</h1>
       <div className="Pokedex-cards">
