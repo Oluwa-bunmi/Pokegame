@@ -1,11 +1,12 @@
 import "./App.css";
-import Pokecard from "./components/Pokecard/Pokecard";
 import Pokedex from "./components/Pokedex/Pokedex";
+
+import Pokegame from "./components/Pokegame";
 
 function App() {
   return (
     <div className="App">
-      {/* <Pokecard id={2} name="Charmander" type="fire" exp={62} /> */}
+      {/* <Pokegame /> */}
       <Pokedex />
     </div>
   );
